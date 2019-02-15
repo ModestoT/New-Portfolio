@@ -2787,9 +2787,11 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
+		display: flex;
+		flex-direction: column;
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+		padding-left: 6%;
 	}
 
 		ul.icons li {
@@ -2804,6 +2806,7 @@ input, select, textarea {
 			ul.icons li > a, ul.icons li > span {
 				border: 0;
 				text-decoration: none;
+				font-size: 2.2rem;
 			}
 
 				ul.icons li > a:before, ul.icons li > span:before {
