@@ -3004,6 +3004,11 @@ input, select, textarea {
 			width: 25em;
 		}
 
+		.spotlights > section > .image:hover {
+			transform: translateX(1em) scale(1.1);
+			z-index: 3;
+		}
+
 			.spotlights > section > .image img {
 				border-radius: 0;
 				display: block;
