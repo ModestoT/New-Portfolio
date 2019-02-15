@@ -2006,10 +2006,10 @@ input, select, textarea {
 			.features section:nth-child(-n + 2) {
 				border-top-width: 0;
 			}
-
+/* 
 			.features section:nth-child(2n) {
 				
-			}
+			} */
 
 			.features section .icon {
 				-moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease;
@@ -3011,14 +3011,14 @@ input, select, textarea {
 			box-shadow: inset 0 0 0 300px rgba(0,0,0,.3);
 		}
 
-		.spotlights > section > .image > a > {
+		.spotlights > section > .image > a {
 			border-bottom: none;
 		}
 
 		.spotlights > section > .image > a > .demo-btn {
 			left: 35%;
 			top: 42%;
-			background: black;
+			background: green;
 			opacity: 0;
 			transition: opacity .3s;
 		}
