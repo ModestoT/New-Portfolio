@@ -1995,7 +1995,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 1em 0em 0em 0em ;
+			padding: .5em 0em 0em 0em ;
 			width: 20%;
 			height: 9rem;
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
@@ -2026,8 +2026,8 @@ input, select, textarea {
 				-ms-transform: scale(1);
 				transform: scale(1);
 				position: absolute;
-				left: 4.5em;
-				top: 3em;
+				left: 4.1em;
+				top: 2em;
 				opacity: 1;
 			}
 
@@ -2492,7 +2492,7 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			/* font-family: FontAwesome; */
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2503,19 +2503,19 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			width: 2.5em;
-			height: 2.5em;
+			width: 3.5em;
+			height: 3.5em;
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
 			color: #312450;
 			text-align: center;
 			line-height: 2.5em;
-			margin: 0 0 1.3em 0;
+			margin: 0 0 1em 0;
 		}
 
 			.icon.major:before {
-				font-size: 1.25em;
+				font-size: 1.8em;
 			}
 
 				.wrapper.style1 .icon.major:before {
@@ -2535,12 +2535,29 @@ input, select, textarea {
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: dodgerblue;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: dodgerblue;
 				}
+			.icon.major .icons {
+				width: 79%;
+				padding-top: 6px;
+			}
+
+			.icon.major .icons.csharp {
+				padding-top: 12%;
+			}
+
+			.icon.major .icons.node {
+				padding-top: 25%;
+			}
+
+			.icon.major .icons.express {
+				padding-top: 38%;
+			}
+
 
 /* Image */
 
